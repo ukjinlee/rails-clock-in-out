@@ -1,24 +1,21 @@
-# README
+# Time Clock
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A time clock application to allow employees to clock-in/clock-out of their offices.
+https://time-clock-0219.herokuapp.com/
 
-Things you may want to cover:
+## Screenshots
 
-* Ruby version
+![Example screenshot](./img/screenshot.png)
 
-* System dependencies
+## Dependencies
 
-* Configuration
+- Rails 5.2.2
+- Ruby 2.6.1
+- Bootstrap 4.1.3
 
-* Database creation
+## Features
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Allow a user to enter their name.
+- Allow user to clock either in or out.
+- Upon clock event, store user's name, clock type and time.
+- Provide a list of all clock events with logged information.
