@@ -2,19 +2,21 @@
   <div class="row">
     <div class="col-md-12">
       <h1>Time Clock</h1>
-      <form>
+      <form action="/clock" method="post">
         <div class="form-group">
-          <label for="username">Name</label>
+          <label for="username">Username</label>
           <input
             type="text"
             class="form-control"
             id="username"
             aria-describedby="username"
-            placeholder="Name"
+            placeholder="Username"
+            name="username"
+            required
           />
         </div>
-        <button type="submit" class="btn btn-primary">Clock in</button>
-        <button type="submit" class="btn btn-danger">Clock out</button>
+        <button type="submit" class="btn btn-primary" name="clock_type" value="in">Clock in</button>
+        <button type="submit" class="btn btn-danger" name="clock_type" value="out">Clock out</button>
       </form>
       <hr>
       <h2>History</h2>
