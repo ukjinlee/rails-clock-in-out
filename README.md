@@ -1,11 +1,12 @@
 # Time Clock
 
 A time clock application to allow employees to clock-in/clock-out of their offices.
+
 https://time-clock-0219.herokuapp.com/
 
-## Screenshots
+## Screenshot
 
-![Example screenshot](./img/screenshot.png)
+<img src="./img/screenshot.png" width="600" style="border:3px solid #000000">
 
 ## Dependencies
 
