@@ -24,7 +24,7 @@
       <h2>History</h2>
       <% @records.each do |record| %>
       <div>
-        <%= record.username %> clocked <%= record.clock_type %> at <%= record.created_at.getlocal.strftime "%l:%M:%S %p, %b %e, %Y" %>
+        <%= record.username %> clocked <%= record.clock_type %> at <%= record.created_at.in_time_zone('Eastern Time (US & Canada)').strftime "%l:%M:%S %p, %b %e, %Y" %>
       </div>
       <% end %>
     </div>
