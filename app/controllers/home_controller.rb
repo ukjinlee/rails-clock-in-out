@@ -2,6 +2,7 @@ class HomeController < ApplicationController
   protect_from_forgery prepend: true
   
   def index
+    @records = TimeRecord.all.reverse
   end
   
   def clock
