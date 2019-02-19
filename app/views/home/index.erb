@@ -7,17 +7,20 @@
           <input
             type="text"
             class="form-control col-md-4"
-            id="username"
             aria-describedby="username"
             placeholder="Username"
             name="username"
             required
           />
         </div>
-        <button type="submit" class="btn btn-primary" name="clock_type" value="in">Clock in</button>
-        <button type="submit" class="btn btn-danger" name="clock_type" value="out">Clock out</button>
+        <button type="submit" class="btn btn-primary" name="clock_type" value="in">
+          Clock in
+        </button>
+        <button type="submit" class="btn btn-danger" name="clock_type" value="out">
+          Clock out
+        </button>
       </form>
-      <hr>
+      <hr />
       <h2>History</h2>
       <% @records.each do |record| %>
       <div>
